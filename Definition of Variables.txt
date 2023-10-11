@@ -1,0 +1,9 @@
+time: Interval relative to the first flow sending time. Unit: Milliseconds.
+
+portPktInBytes: Input rate of the cache queue. Here, we use the bytes of data received within the fixed interval of two adjacent points to represent the rate. Unit: B
+
+portPktOutBytes: Output rate of the cache queue. Here, we use the bytes of output data within the fixed interval of two adjacent points to represent the rate. Unit: B
+
+qSizes: Length of the cache queue, where the length is a instantaneous value at the data collection moment. Unit: B
+
+label: Scenario type ID, range: 0 – 11.
